@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+div#all-content {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #162028;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header img#header-logo {
+    margin-left: 140px;
+}
+
+header nav {
+    line-height: 25px;   
+    position: absolute;
+    right: 0px; 
+    top: 0px;
+    height: 100%;
+    
+}
+
+#header-menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header-menu li{    
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+#header-menu a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.7em;
+    transition: color 0.3s linear;
+}
+
+#header-menu a:hover {
+    color: white;
+}
+
+article.portfolio {
+    padding: 50px 100px;
+    height: 100%;
+    line-height: 25px;
+    text-align: center;
+}
+
+article.portfolio h1 {
+    font-size: 2.25em; 
+    color: #252525; 
+    height: 35px;       
+}
+
+article.portfolio p {
+    font-size: 1em;
+    line-height: 32px;
+    color: #555;
+    margin: 20px;
+}
+
+article.gallery {
+    color: #555;
+    padding: 0px 100px 50px 100px;
+    text-align: center;
+}
+
+div.gallery-container {
+    overflow: auto;
+}
+
+div.gallery-card{
+    width: 32%;    
+    box-sizing: border-box;
+    float: left;
+}
+
+img.vest-romasa-img, img.jacket-fima-img {
+    margin-right: 2%;
+}
+
+p.gallery-title {    
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1em;
+}
+
+section.about {
+    background-color: #003d52;
+    background-image: url('../imagens/bg_detalhe.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    padding: 100px;
+}
+
+div.about-title h2{
+    font-size: 3.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+div.about-text {
+    margin: 0px;
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 70%;
+}
+
+div.contact{
+    margin: 50px 0px;
+}
+
+.contact address{
+    color: #143f52;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+div.location {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+}
